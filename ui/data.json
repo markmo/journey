@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    {"name": "T.com"},
+    {"name": "24x7 App"},
+    {"name": "Live Chat"},
+    {"name": "Social Media"},
+    {"name": "Outbound Campaign"},
+    {"name": "Inbound Marketing Action"},
+    {"name": "Direct Communications"},
+    {"name": "Online Ad"},
+    {"name": "Telstra TV Ad"},
+    {"name": "Retail Shop"},
+    {"name": "GCC"},
+    {"name": "Network Outage"}
+  ],
+  "links": [
+    {"source": 4, "target": 2, "value": 1},
+    {"source": 2, "target": 10, "value": 1},
+    {"source": 10, "target": 9, "value": 1},
+    {"source": 9, "target": 6, "value": 1},
+    {"source": 6, "target": 0, "value": 1}
+  ]
+}

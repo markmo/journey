@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Journey</title>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
+</head>
+<body>
+  <div id="game" style="z-index: 100; position: absolute; top: 264.688px; left: 438.75px; width: 210px; height: 139px; opacity: 0; pointer-events: none; background-image: url('assets/data_tip.png'); background-repeat: no-repeat;">
+    <div id="winner" style="position:absolute; top:30px; left:25px;">
+      <div id="game_winner_name" style="text-align: center; font-size: 12px; margin-top: 3px; font-family: Roboto; font-weight: normal; color: rgb(12, 55, 29);"></div>
+      <img id="game_winner_img" style="margin:auto; display:block; height:32px;">
+      <div id="game_winner_prob" style="text-align: center; margin-left: 5px; margin-top: -2px; font-size: 24px; font-family: Roboto; font-weight: bold; color: rgb(12, 55, 29);"></div>
+    </div>
+    <div id="loser" style="position:absolute; top:30px; right:25px;">
+      <div id="game_loser_name" style="text-align: center; font-size: 12px; margin-top: 3px; font-family: Roboto; font-weight: normal; color: rgb(34, 116, 118);"></div>
+      <img id="game_loser_img" style="margin:auto; display:block; height:32px;">
+      <div id="game_loser_prob" style="text-align: center; margin-left: 5px; margin-top: -2px; font-size: 24px; font-family: Roboto; font-weight: bold; color: rgb(34, 116, 118);"></div>
+    </div>
+  </div>
+  <div id="diagram"></div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="myaccount.dist.js" charset="utf-8"></script>
+</body>
+</html>
